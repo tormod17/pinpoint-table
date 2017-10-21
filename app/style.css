@@ -1,0 +1,118 @@
+
+#example_wrapper {
+  width: fit-content;
+}
+
+.row {
+  text-align: center;
+}
+
+table.dataTable tbody td.select-checkbox:before, table.dataTable tbody td.select-checkbox:after, table.dataTable tbody th.select-checkbox:before, table.dataTable tbody th.select-checkbox:after {
+  left: 10%;
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+  text-align: center;
+}
+
+.selectedCell {
+  background-color: #B0BED9;
+}
+
+#example_filter{
+  display: inline-block;
+
+}
+
+#example_length{
+  display: inline-block;
+  float: right;
+}
+
+.selectpicker {
+  width: 5%;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 80%;
+}
+
+
+table.dataTable thead>tr>th.sorting_asc,
+table.dataTable thead>tr>th.sorting_desc,
+table.dataTable thead>tr>th.sorting,
+table.dataTable thead>tr>td.sorting_asc,
+table.dataTable thead>tr>td.sorting_desc,
+ table.dataTable thead>tr>td.sorting {
+  padding-right: 0px !important;
+}
+
+table {
+  width: auto;
+}
+
+table th {
+  min-width: 30px !important;
+  white-space: nowrap;
+  position: relative;
+}
+
+.tallHeader {
+  height: 100px;
+  line-height: 100px;
+  width: 30px !important;
+}
+
+tr:hover {
+  background: skyblue;
+}
+
+table th.select-checkbox {
+  min-width: 160px !important;
+}
+
+.smallest {
+  background-color: red;
+}
+
+.largest {
+  background-color: green;
+}
+
+.toolbar {
+  display: inline-block;
+}
+.rangeInput{
+  margin-left: 20px;
+  width: 75px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.meetsCondition {
+  background: skyblue;
+}
+
+.bootstrap-select > .dropdown-toggle {
+  padding-right: 10px !important;
+}
+
+thead:last.sorting:after {
+  content: '';
+}
+
+label {
+  margin-right: 5px;
+}
+
+th label {
+  display: block;
+}
+
+.rotateCol {
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+}
+
